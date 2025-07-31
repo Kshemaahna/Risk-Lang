@@ -1,4 +1,4 @@
-# simulator.py
+# simulator
 
 def simulate(parsed):
     portfolio = parsed.get("portfolio", {})
