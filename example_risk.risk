@@ -1,0 +1,16 @@
+portfolio {
+  asset "AAPL" qty: 100
+  asset "GOOG" qty: 50
+}
+
+scenario "Crash" {
+  "AAPL": drop -10%
+  "GOOG": drop -15%
+  correlation: increase all to 0.8
+  liquidity: reduce by 0.2
+}
+
+metrics {
+  pnl
+  var confidence: 95
+}
