@@ -1,5 +1,5 @@
-from risklang.core.parser import parse
-from risklang.core.simulator import simulate
+from parser import parse
+from simulator import simulate
 
 def run(code: str):
     parsed = parse(code)
