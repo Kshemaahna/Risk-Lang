@@ -1,4 +1,4 @@
-# parser.py
+# parser
 
 from lark import Lark, Transformer
 
