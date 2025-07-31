@@ -12,24 +12,7 @@ A `.risk` file includes three main components:
 - **Scenario**: Describes market events such as asset price drops, changes in correlation, and liquidity adjustments.
 - **Metrics**: Specifies risk measures to compute, such as profit and loss (PnL) and Value-at-Risk (VaR).
 
-Example:
-
-portfolio {
-  asset "AAPL" qty: 100
-  asset "GOOG" qty: 50
-}
-
-scenario "Crash" {
-  "AAPL": drop -10%
-  "GOOG": drop -15%
-  correlation: increase all to 0.8
-  liquidity: reduce by 0.2
-}
-
-metrics {
-  pnl
-  var confidence: 95
-}
+An example .risk file can be found in example_Risk.risk in this repository. In general, it would suffice to follow the format and save your own data as a .risk file from any text editor.
 
 ---
 
