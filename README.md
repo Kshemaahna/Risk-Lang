@@ -26,7 +26,7 @@ or
 
 ### Run simulation
 
-```python cli.py example_risk.risk```
+```python cli_risklang.py example_risk.risk```
 
 ---
 
