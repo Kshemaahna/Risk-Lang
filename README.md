@@ -1,4 +1,4 @@
-# RiskLang: A Domain Specific Language for Portfolio Risk Management
+# RiskLang: A Domain Specific Language (DSL) for Portfolio Risk Management
 
 RiskLang is a lightweight domain-specific language (DSL) designed for specifying and simulating portfolio risk scenarios. It provides a structured and human-readable syntax to define assets, market shocks, and risk metrics for quantitative risk analysis and stress testing. This is an ongoing project at this moment.
 
